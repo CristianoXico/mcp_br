@@ -1,0 +1,20 @@
+{
+  "nomes_frequencia_nome_Ana_localidade_None_sexo_None_decada_None_periodo_None_None": [
+    {
+      "nome": "Ana",
+      "frequencia": 789
+    }
+  ],
+  "nomes_pesquisa_João": [
+    {
+      "nome": "João",
+      "frequencia": 123
+    }
+  ],
+  "nomes_ranking_localidade_BR_sexo_F_decada_None_periodo_None_None": [
+    {
+      "nome": "Maria",
+      "frequencia": 456
+    }
+  ]
+}

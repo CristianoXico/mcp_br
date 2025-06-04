@@ -1,21 +1,6 @@
 # test_ibge_local.py
 import asyncio
-from tools.ibge import (
-    buscar_populacao_por_codigo,
-    buscar_populacao_por_nome,
-    buscar_municipio_por_codigo,
-    buscar_municipio_por_nome,
-    listar_estados,
-    listar_regioes,
-    buscar_area_territorial,
-    buscar_densidade_demografica,
-    buscar_metadados,
-    listar_variaveis,
-    listar_unidades_medida,
-    listar_conceitos,
-    listar_fontes,
-    listar_dominios
-)
+from tools import ibge
 
 async def main():
     # Código do município de Campinas
@@ -23,54 +8,54 @@ async def main():
     nome_campinas = "Campinas"
 
     # Teste de população por código
-    resultado_populacao_codigo = buscar_populacao_por_codigo(codigo_campinas)
+    resultado_populacao_codigo = ibge.buscar_populacao_por_codigo(codigo_campinas)
     print("\nTeste de população por código:")
     print("Resultado:", resultado_populacao_codigo)
 
     # Teste de população por nome
-    resultado_populacao_nome = buscar_populacao_por_nome(nome_campinas)
+    resultado_populacao_nome = ibge.buscar_populacao_por_nome(nome_campinas)
     print("\nTeste de população por nome:")
     print("Resultado:", resultado_populacao_nome)
 
     # Teste de busca de município por código
-    resultado_municipio_codigo = buscar_municipio_por_codigo(codigo_campinas)
+    resultado_municipio_codigo = ibge.buscar_municipio_por_codigo(codigo_campinas)
     print("\nTeste de busca de município por código:")
     print("Resultado:", resultado_municipio_codigo)
 
     # Teste de busca de município por nome
-    resultado_municipio_nome = buscar_municipio_por_nome(nome_campinas)
+    resultado_municipio_nome = ibge.buscar_municipio_por_nome(nome_campinas)
     print("\nTeste de busca de município por nome:")
     print("Resultado:", resultado_municipio_nome)
 
     # Teste de listagem de estados
-    resultado_estados = listar_estados()
+    resultado_estados = ibge.listar_estados()
     print("\nTeste de listagem de estados:")
     print("Número de estados:", len(resultado_estados))
     print("Primeiro estado:", resultado_estados[0])
 
     # Teste de listagem de regiões
-    resultado_regioes = listar_regioes()
+    resultado_regioes = ibge.listar_regioes()
     print("\nTeste de listagem de regiões:")
     print("Número de regiões:", len(resultado_regioes))
     print("Primeira região:", resultado_regioes[0])
 
     # Teste de área territorial
-    resultado_area = buscar_area_territorial(codigo_campinas)
+    resultado_area = ibge.buscar_area_territorial(codigo_campinas)
     print("\nTeste de área territorial:")
     print("Resultado:", resultado_area)
 
     # Teste de densidade demográfica
-    resultado_densidade = buscar_densidade_demografica(codigo_campinas)
+    resultado_densidade = ibge.buscar_densidade_demografica(codigo_campinas)
     print("\nTeste de densidade demográfica:")
     print("Resultado:", resultado_densidade)
 
     # Teste de metadados
-    resultado_metadados = await buscar_metadados("populacao", "2023")
+    resultado_metadados = await ibge.buscar_metadados("populacao", "2023")
     print("\nTeste de metadados:")
     print("Resultado:", resultado_metadados)
 
     # Teste de variáveis
-    resultado_variaveis = listar_variaveis()
+    resultado_variaveis = ibge.listar_variaveis()
     print("\nTeste de listagem de variáveis:")
     print("Número de variáveis:", len(resultado_variaveis))
     print("Primeira variável:", resultado_variaveis[0])

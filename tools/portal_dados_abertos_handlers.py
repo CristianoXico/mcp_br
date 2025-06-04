@@ -1,1 +1,16 @@
-from .portal_dados_abertos_api import carregar_cache, salvar_cache, listar_datasets_raw\nimport asyncio\n\n# Handler MCP: lista todos os conjuntos de dados disponíveis\nasync def listar_dados_abertos() -> list:\n    cache = carregar_cache()\n    if \"dados_abertos\" in cache:\n        return cache[\"dados_abertos\"]\n    try:\n        ids = await listar_datasets_raw()\n        cache[\"dados_abertos\"] = ids\n        salvar_cache(cache)\n        return ids\n    except Exception as e:\n        print(f\"Erro em listar_dados_abertos (handler): {e}\")\n        return [\"dataset-1\", \"dataset-2\", \"dataset-3\"]  # fallback\n
+from .portal_dados_abertos_api import carregar_cache, salvar_cache, listar_datasets_raw
+import asyncio
+
+# Handler MCP: lista todos os conjuntos de dados disponíveis
+async def listar_dados_abertos() -> list:
+    cache = carregar_cache()
+    if "dados_abertos" in cache:
+        return cache["dados_abertos"]
+    try:
+        ids = await listar_datasets_raw()
+        cache["dados_abertos"] = ids
+        salvar_cache(cache)
+        return ids
+    except Exception as e:
+        print(f"Erro em listar_dados_abertos (handler): {e}")
+        return ["dataset-1", "dataset-2", "dataset-3"]  # fallback

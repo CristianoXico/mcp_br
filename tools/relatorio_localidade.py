@@ -46,49 +46,88 @@ periodo_valor: Optional[str] = None) -> Tuple[datetime.datetime, datetime.dateti
     """
     if data_referencia is None:
         data_referencia = datetime.datetime.now()
-    
+
     # Verifica se foi fornecido um valor específico de período
     if periodo_valor:
         try:
             if periodo_tipo == 'dia' and len(periodo_valor) == 10:  # YYYY-MM-DD
                 data = datetime.datetime.strptime(periodo_valor, "%Y-%m-%d")
-                data_inicial = datetime.datetime(data.year, data.month, data.day, 0, 0, 0)
-                data_final = data_inicial + datetime.timedelta(days=1) - datetime.timedelta(seconds=1)
+                data_inicial = datetime.datetime(
+                    data.year, data.month, data.day, 0, 0, 0
+                )
+                data_final = (
+                    data_inicial + datetime.timedelta(days=1)
+                    - datetime.timedelta(seconds=1)
+                )
                 return data_inicial, data_final
             elif periodo_tipo == 'mes' and len(periodo_valor) == 7:  # YYYY-MM
                 data = datetime.datetime.strptime(periodo_valor, "%Y-%m")
-                data_inicial = datetime.datetime(data.year, data.month, 1, 0, 0, 0)
+                data_inicial = datetime.datetime(
+                    data.year, data.month, 1, 0, 0, 0
+                )
                 if data.month == 12:
-                    data_final = datetime.datetime(data.year + 1, 1, 1, 0, 0, 0) - datetime.timedelta(seconds=1)
+                    data_final = (
+                        datetime.datetime(data.year + 1, 1, 1, 0, 0, 0)
+                        - datetime.timedelta(seconds=1)
+                    )
                 else:
-                    data_final = datetime.datetime(data.year, data.month + 1, 1, 0, 0, 0) - datetime.timedelta(seconds=1)
+                    data_final = (
+                        datetime.datetime(data.year, data.month + 1, 1, 0, 0, 0)
+                        - datetime.timedelta(seconds=1)
+                    )
                 return data_inicial, data_final
             elif periodo_tipo == 'ano' and len(periodo_valor) == 4:  # YYYY
                 ano = int(periodo_valor)
                 data_inicial = datetime.datetime(ano, 1, 1, 0, 0, 0)
-                data_final = datetime.datetime(ano + 1, 1, 1, 0, 0, 0) - datetime.timedelta(seconds=1)
+                data_final = (
+                    datetime.datetime(ano + 1, 1, 1, 0, 0, 0)
+                    - datetime.timedelta(seconds=1)
+                )
                 return data_inicial, data_final
         except (ValueError, TypeError):
             logging.warning(f"Formato de período inválido: {periodo_valor}. Usando período padrão.")
-    
+
     # Cálculo padrão baseado no tipo de período
     if periodo_tipo == 'dia':
-        data_inicial = datetime.datetime(data_referencia.year, data_referencia.month, data_referencia.day, 0, 0, 0)
-        data_final = data_inicial + datetime.timedelta(days=1) - datetime.timedelta(seconds=1)
+        data_inicial = datetime.datetime(
+            data_referencia.year, data_referencia.month, data_referencia.day, 0, 0, 0
+        )
+        data_final = (
+            data_inicial + datetime.timedelta(days=1)
+            - datetime.timedelta(seconds=1)
+        )
     elif periodo_tipo == 'mes':
-        data_inicial = datetime.datetime(data_referencia.year, data_referencia.month, 1, 0, 0, 0)
+        data_inicial = datetime.datetime(
+            data_referencia.year, data_referencia.month, 1, 0, 0, 0
+        )
         if data_referencia.month == 12:
-            data_final = datetime.datetime(data_referencia.year + 1, 1, 1, 0, 0, 0) - datetime.timedelta(seconds=1)
+            data_final = (
+                datetime.datetime(data_referencia.year + 1, 1, 1, 0, 0, 0)
+                - datetime.timedelta(seconds=1)
+            )
         else:
-            data_final = datetime.datetime(data_referencia.year, data_referencia.month + 1, 1, 0, 0, 0) - datetime.timedelta(seconds=1)
+            data_final = (
+                datetime.datetime(
+                    data_referencia.year, data_referencia.month + 1, 1, 0, 0, 0
+                )
+                - datetime.timedelta(seconds=1)
+            )
     elif periodo_tipo == 'ano':
-        data_inicial = datetime.datetime(data_referencia.year, 1, 1, 0, 0, 0)
-        data_final = datetime.datetime(data_referencia.year + 1, 1, 1, 0, 0, 0) - datetime.timedelta(seconds=1)
+        data_inicial = datetime.datetime(
+            data_referencia.year, 1, 1, 0, 0, 0
+        )
+        data_final = (
+            datetime.datetime(data_referencia.year + 1, 1, 1, 0, 0, 0)
+            - datetime.timedelta(seconds=1)
+        )
     else:  # Padrão: últimos 30 dias
-        data_final = data_referencia.replace(hour=23, minute=59, second=59, microsecond=999999)
+        data_final = data_referencia.replace(
+            hour=23, minute=59, second=59, microsecond=999999
+        )
         data_inicial = data_final - datetime.timedelta(days=30)
-    
+
     return data_inicial, data_final
+
 
 def formatar_data_api(data: datetime.datetime) -> str:
     """
@@ -102,12 +141,16 @@ def formatar_data_api(data: datetime.datetime) -> str:
     """
     return data.strftime("%Y%m")
 
-async def gerar_relatorio_municipio(nome_municipio: str, dados: Dict, periodo: str = 'mes') -> Dict:
+
+async def gerar_relatorio_municipio(
+    nome_municipio: str, dados: Dict, periodo: str = 'mes'
+) -> Dict:
     """
     Gera um relatório detalhado sobre um município.
     
     Args:
         nome_municipio: Nome do município
+    ...
         dados: Dados básicos já coletados sobre o município
         
     Returns:

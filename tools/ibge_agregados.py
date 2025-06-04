@@ -1,104 +1,37 @@
 """
-Módulo para acesso à API de Agregados do IBGE
-Documentação: https://servicodados.ibge.gov.br/api/docs/agregados
+Façade do domínio Agregados do IBGE.
+
+Este módulo serve apenas como ponto de entrada padronizado para o domínio Agregados.
+
+- Funções utilitárias de acesso à API: ibge_agregados_api.py
+- Handlers MCP: ibge_agregados_handlers.py
+- Logger e utilitários centralizados: logger.py, cache_utils.py, api_config.py
+
+Importe as funções/handlers do módulo ibge_agregados_handlers.py.
 """
 
-from .ibge_base import *
+from .ibge_agregados_handlers import *
 
-def listar_agregados() -> List[Dict]:
-    """Lista todos os agregados disponíveis"""
-    cache_key = "agregados"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
+# O bloco abaixo estava fora de função/classe e causava erro de indentação.
+# Se for uma função utilitária, deve estar dentro de uma função. Caso contrário, manter comentado.
 
-    try:
-        url = f"{BASE_URL_AGREGADOS}"
-        agregados = make_request(url)
-        return save_to_cache(cache_key, agregados)
-    except Exception as e:
-        logger.error(f"Erro ao listar agregados: {e}")
-        return [{"erro": str(e)}]
-
-def obter_agregado_por_id(id_agregado: str) -> Dict:
-    """
-    Obtém informações detalhadas de um agregado específico
-    
-    Args:
-        id_agregado: ID do agregado
-    """
-    cache_key = f"agregado_{id_agregado}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
-
-    try:
-        url = f"{BASE_URL_AGREGADOS}/{id_agregado}"
-        agregado = make_request(url)
-        return save_to_cache(cache_key, agregado)
-    except Exception as e:
-        logger.error(f"Erro ao obter agregado {id_agregado}: {e}")
-        return {"erro": str(e)}
-
-def listar_periodos_agregado(id_agregado: str) -> List[Dict]:
-    """
-    Lista os períodos disponíveis para um agregado
-    
-    Args:
-        id_agregado: ID do agregado
-    """
-    cache_key = f"periodos_agregado_{id_agregado}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
-
-    try:
-        url = f"{BASE_URL_AGREGADOS}/{id_agregado}/periodos"
-        periodos = make_request(url)
-        return save_to_cache(cache_key, periodos)
-    except Exception as e:
-        logger.error(f"Erro ao listar períodos do agregado {id_agregado}: {e}")
-        return [{"erro": str(e)}]
-
-def listar_variaveis_agregado(id_agregado: str) -> List[Dict]:
-    """
-    Lista as variáveis disponíveis para um agregado
-    
-    Args:
-        id_agregado: ID do agregado
-    """
-    cache_key = f"variaveis_agregado_{id_agregado}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
-
-    try:
-        url = f"{BASE_URL_AGREGADOS}/{id_agregado}/variaveis"
-        variaveis = make_request(url)
-        return save_to_cache(cache_key, variaveis)
-    except Exception as e:
-        logger.error(f"Erro ao listar variáveis do agregado {id_agregado}: {e}")
-        return [{"erro": str(e)}]
-
-def listar_localidades_agregado(id_agregado: str) -> List[Dict]:
-    """
-    Lista as localidades disponíveis para um agregado
-    
-    Args:
-        id_agregado: ID do agregado
-    """
-    cache_key = f"localidades_agregado_{id_agregado}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
-
-    try:
-        url = f"{BASE_URL_AGREGADOS}/{id_agregado}/localidades"
-        localidades = make_request(url)
-        return save_to_cache(cache_key, localidades)
-    except Exception as e:
-        logger.error(f"Erro ao listar localidades do agregado {id_agregado}: {e}")
-        return [{"erro": str(e)}]
+# """
+# Lista as localidades disponíveis para um agregado
+# 
+# Args:
+#     id_agregado: ID do agregado
+# """
+# cache_key = f"localidades_agregado_{id_agregado}"
+# cached_data = get_cached_data(cache_key)
+# if cached_data:
+#     return cached_data
+# try:
+#     url = f"{BASE_URL_AGREGADOS}/{id_agregado}/localidades"
+#     localidades = make_request(url)
+#     return save_to_cache(cache_key, localidades)
+# except Exception as e:
+#     logger.error(f"Erro ao listar localidades do agregado {id_agregado}: {e}")
+#     return [{"erro": str(e)}]
 
 def listar_niveis_territoriais_agregado(id_agregado: str) -> List[Dict]:
     """

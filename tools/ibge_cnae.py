@@ -1,130 +1,30 @@
 """
-Módulo para acesso à API de CNAE (Classificação Nacional de Atividades Econômicas) do IBGE
-Documentação: https://servicodados.ibge.gov.br/api/docs/cnae
+Façade do domínio CNAE (Classificação Nacional de Atividades Econômicas) do IBGE.
+
+Este módulo serve apenas como ponto de entrada padronizado para o domínio CNAE.
+
+- Funções utilitárias de acesso à API: ibge_cnae_api.py
+- Handlers MCP: ibge_cnae_handlers.py
+- Logger e utilitários centralizados: logger.py, cache_utils.py, api_config.py
+
+Importe as funções/handlers do módulo ibge_cnae_handlers.py.
 """
 
-from .ibge_base import *
+from typing import List, Dict
+from .ibge_cnae_handlers import *
 
-def listar_secoes() -> List[Dict]:
-    """Lista todas as seções da CNAE"""
-    cache_key = "cnae_secoes"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
+"""
+Façade do domínio CNAE (Classificação Nacional de Atividades Econômicas) do IBGE.
 
-    try:
-        url = f"{BASE_URL_CNAE}/secoes"
-        secoes = make_request(url)
-        return save_to_cache(cache_key, secoes)
-    except Exception as e:
-        logger.error(f"Erro ao listar seções CNAE: {e}")
-        return [{"erro": str(e)}]
+Este módulo serve apenas como ponto de entrada padronizado para o domínio CNAE.
 
-def obter_secao(id_secao: str) -> Dict:
-    """
-    Obtém informações detalhadas de uma seção específica da CNAE
-    
-    Args:
-        id_secao: ID da seção
-    """
-    cache_key = f"cnae_secao_{id_secao}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
+- Funções utilitárias de acesso à API: ibge_cnae_api.py
+- Handlers MCP: ibge_cnae_handlers.py
+- Logger e utilitários centralizados: logger.py, cache_utils.py, api_config.py
 
-    try:
-        url = f"{BASE_URL_CNAE}/secoes/{id_secao}"
-        secao = make_request(url)
-        return save_to_cache(cache_key, secao)
-    except Exception as e:
-        logger.error(f"Erro ao obter seção CNAE {id_secao}: {e}")
-        return {"erro": str(e)}
+Importe as funções/handlers do módulo ibge_cnae_handlers.py.
+"""
 
-def listar_divisoes(id_secao: str = None) -> List[Dict]:
-    """
-    Lista todas as divisões da CNAE
-    
-    Args:
-        id_secao: ID opcional da seção para filtrar divisões
-    """
-    cache_key = f"cnae_divisoes{f'_secao_{id_secao}' if id_secao else ''}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
-
-    try:
-        if id_secao:
-            url = f"{BASE_URL_CNAE}/secoes/{id_secao}/divisoes"
-        else:
-            url = f"{BASE_URL_CNAE}/divisoes"
-        divisoes = make_request(url)
-        return save_to_cache(cache_key, divisoes)
-    except Exception as e:
-        logger.error(f"Erro ao listar divisões CNAE: {e}")
-        return [{"erro": str(e)}]
-
-def obter_divisao(id_divisao: str) -> Dict:
-    """
-    Obtém informações detalhadas de uma divisão específica da CNAE
-    
-    Args:
-        id_divisao: ID da divisão
-    """
-    cache_key = f"cnae_divisao_{id_divisao}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
-
-    try:
-        url = f"{BASE_URL_CNAE}/divisoes/{id_divisao}"
-        divisao = make_request(url)
-        return save_to_cache(cache_key, divisao)
-    except Exception as e:
-        logger.error(f"Erro ao obter divisão CNAE {id_divisao}: {e}")
-        return {"erro": str(e)}
-
-def listar_grupos(id_divisao: str = None) -> List[Dict]:
-    """
-    Lista todos os grupos da CNAE
-    
-    Args:
-        id_divisao: ID opcional da divisão para filtrar grupos
-    """
-    cache_key = f"cnae_grupos{f'_divisao_{id_divisao}' if id_divisao else ''}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
-
-    try:
-        if id_divisao:
-            url = f"{BASE_URL_CNAE}/divisoes/{id_divisao}/grupos"
-        else:
-            url = f"{BASE_URL_CNAE}/grupos"
-        grupos = make_request(url)
-        return save_to_cache(cache_key, grupos)
-    except Exception as e:
-        logger.error(f"Erro ao listar grupos CNAE: {e}")
-        return [{"erro": str(e)}]
-
-def obter_grupo(id_grupo: str) -> Dict:
-    """
-    Obtém informações detalhadas de um grupo específico da CNAE
-    
-    Args:
-        id_grupo: ID do grupo
-    """
-    cache_key = f"cnae_grupo_{id_grupo}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
-
-    try:
-        url = f"{BASE_URL_CNAE}/grupos/{id_grupo}"
-        grupo = make_request(url)
-        return save_to_cache(cache_key, grupo)
-    except Exception as e:
-        logger.error(f"Erro ao obter grupo CNAE {id_grupo}: {e}")
-        return {"erro": str(e)}
 
 def listar_classes(id_grupo: str = None) -> List[Dict]:
     """

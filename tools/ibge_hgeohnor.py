@@ -1,26 +1,25 @@
 """
-Módulo para acesso à API hgeoHNOR do IBGE
-Documentação: https://servicodados.ibge.gov.br/api/docs/hgeohnor?versao=1
+Façade do domínio hgeoHNOR do IBGE.
+
+Este módulo serve apenas como ponto de entrada padronizado para o domínio hgeoHNOR.
+
+- Funções utilitárias de acesso à API: ibge_hgeohnor_api.py
+- Handlers MCP: ibge_hgeohnor_handlers.py
+- Logger e utilitários centralizados: logger.py, cache_utils.py, api_config.py
+
+Importe as funções/handlers do módulo ibge_hgeohnor_handlers.py.
 """
 
-from .ibge_base import *
+from typing import List, Dict
 
-def listar_estacoes() -> List[Dict]:
-    """
-    Lista todas as estações da Rede Altimétrica de Alta Precisão (RAAP)
-    """
-    cache_key = "hgeohnor_estacoes"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
+# O bloco abaixo estava fora de função/classe e causava erro de indentação.
+# Se for uma função utilitária, deve estar dentro de uma função. Caso contrário, manter comentado.
 
-    try:
-        url = f"{BASE_URL_HGEOHNOR}/estacoes"
-        estacoes = make_request(url)
-        return save_to_cache(cache_key, estacoes)
-    except Exception as e:
-        logger.error(f"Erro ao listar estações RAAP: {e}")
-        return []
+# estacoes = make_request(url)
+# return save_to_cache(cache_key, estacoes)
+# except Exception as e:
+#     logger.error(f"Erro ao listar estações RAAP: {e}")
+#     return []
 
 def obter_estacao(id_estacao: str) -> Dict:
     """

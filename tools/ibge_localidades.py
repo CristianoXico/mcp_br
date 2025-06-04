@@ -1,47 +1,36 @@
 """
-Módulo para acesso à API de Localidades do IBGE
-Documentação: https://servicodados.ibge.gov.br/api/docs/localidades
+Façade do domínio Localidades do IBGE.
+
+Este módulo serve apenas como ponto de entrada padronizado para o domínio Localidades.
+
+- Funções utilitárias de acesso à API: ibge_localidades_api.py
+- Handlers MCP: ibge_localidades_handlers.py
+- Logger e utilitários centralizados: logger.py, cache_utils.py, api_config.py
+
+Importe as funções/handlers do módulo ibge_localidades_handlers.py.
 """
 
-from .ibge_base import *
+from typing import List, Dict
+from .ibge_localidades_handlers import *
 
-def listar_regioes() -> List[Dict]:
-    """Lista todas as regiões do Brasil"""
-    cache_key = "regioes"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
+# O bloco abaixo estava fora de função/classe e causava erro de indentação.
+# Se for uma função utilitária, deve estar dentro de uma função. Caso contrário, manter comentado.
 
-    try:
-        url = f"{BASE_URL_LOCALIDADES}/regioes"
-        regioes = make_request(url)
-        return save_to_cache(cache_key, regioes)
-    except Exception as e:
-        logger.error(f"Erro ao listar regiões: {e}")
-        return [{"erro": str(e)}]
-
-def listar_estados(regiao: str = None) -> List[Dict]:
-    """
-    Lista todos os estados do Brasil
-    
-    Args:
-        regiao: ID opcional da região para filtrar estados
-    """
-    cache_key = f"estados{f'_regiao_{regiao}' if regiao else ''}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
-
-    try:
-        if regiao:
-            url = f"{BASE_URL_LOCALIDADES}/regioes/{regiao}/estados"
-        else:
-            url = f"{BASE_URL_LOCALIDADES}/estados"
-        estados = make_request(url)
-        return save_to_cache(cache_key, estados)
-    except Exception as e:
-        logger.error(f"Erro ao listar estados: {e}")
-        return [{"erro": str(e)}]
+# """
+# cache_key = f"estados{f'_regiao_{regiao}' if regiao else ''}"
+# cached_data = get_cached_data(cache_key)
+# if cached_data:
+#     return cached_data
+# try:
+#     if regiao:
+#         url = f"{BASE_URL_LOCALIDADES}/regioes/{regiao}/estados"
+#     else:
+#         url = f"{BASE_URL_LOCALIDADES}/estados"
+#     estados = make_request(url)
+#     return save_to_cache(cache_key, estados)
+# except Exception as e:
+#     logger.error(f"Erro ao listar estados: {e}")
+#     return [{"erro": str(e)}]
 
 def listar_mesorregioes(uf: str = None) -> List[Dict]:
     """

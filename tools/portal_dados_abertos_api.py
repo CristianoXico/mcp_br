@@ -1,1 +1,67 @@
-import httpx\nimport json\nfrom pathlib import Path\nfrom typing import Dict, Any, List\nfrom config.api_config import API_CONFIG\n\nHEADERS = {\n    \"Authorization\": f\"Bearer {API_CONFIG['dados_abertos_token']}\",\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\",\n    \"Accept\": \"application/json\",\n    \"Content-Type\": \"application/json\",\n    \"X-CKAN-API-Key\": API_CONFIG['dados_abertos_token'],\n    \"Cookie\": f\"auth_tkt={API_CONFIG['dados_abertos_token']}\"\n}\n\nDATA_DIR = Path(\"data\")\nDATA_DIR.mkdir(exist_ok=True)\nCACHE_PATH = DATA_DIR / \"cache_dados_abertos.json\"\n\n# Pool de conexões HTTP (httpx.AsyncClient)\n_async_client = None\nasync def get_async_client():\n    global _async_client\n    if _async_client is None:\n        _async_client = httpx.AsyncClient(timeout=30.0)\n    return _async_client\n\ndef carregar_cache() -> Dict:\n    try:\n        if CACHE_PATH.exists():\n            return json.loads(CACHE_PATH.read_text(encoding='utf-8'))\n        return {}\n    except Exception as e:\n        print(f\"Erro ao carregar cache: {e}\")\n        return {}\n\ndef salvar_cache(data: Dict) -> None:\n    try:\n        CACHE_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')\n    except Exception as e:\n        print(f\"Erro ao salvar cache: {e}\")\n\nasync def api_get(url: str, **kwargs) -> httpx.Response:\n    client = await get_async_client()\n    return await client.get(url, headers=HEADERS, **kwargs)\n\n# Exemplo de função utilitária para listar pacotes\nasync def listar_datasets_raw() -> List[str]:\n    url = \"https://dados.gov.br/api/3/action/package_list\"\n    response = await api_get(url, follow_redirects=True)\n    response.raise_for_status()\n    data = response.json()\n    return data.get('result', [])\n
+import httpx
+import json
+from pathlib import Path
+from typing import Dict, Any, List
+from config.api_config import API_CONFIG
+
+HEADERS = {
+    "Authorization": f"Bearer {API_CONFIG['dados_abertos_token']}",
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/91.0.4472.124 Safari/537.36"
+    ),
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+    "X-CKAN-API-Key": API_CONFIG['dados_abertos_token'],
+    "Cookie": f"auth_tkt={API_CONFIG['dados_abertos_token']}"
+}
+
+
+DATA_DIR = Path("data")
+DATA_DIR.mkdir(exist_ok=True)
+CACHE_PATH = DATA_DIR / "cache_dados_abertos.json"
+
+# Pool de conexões HTTP (httpx.AsyncClient)
+_async_client = None
+
+
+async def get_async_client():
+    global _async_client
+    if _async_client is None:
+        _async_client = httpx.AsyncClient(timeout=30.0)
+    return _async_client
+
+
+def carregar_cache() -> Dict:
+    try:
+        if CACHE_PATH.exists():
+            return json.loads(CACHE_PATH.read_text(encoding="utf-8"))
+        return {}
+    except Exception as e:
+        print(f"Erro ao carregar cache: {e}")
+        return {}
+
+
+def salvar_cache(data: Dict) -> None:
+    try:
+        CACHE_PATH.write_text(
+            json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+    except Exception as e:
+        print(f"Erro ao salvar cache: {e}")
+
+
+async def api_get(url: str, **kwargs) -> httpx.Response:
+    client = await get_async_client()
+    return await client.get(url, headers=HEADERS, **kwargs)
+
+
+# Exemplo de função utilitária para listar pacotes
+async def listar_datasets_raw() -> List[str]:
+    url = "https://dados.gov.br/api/3/action/package_list"
+    response = await api_get(url, follow_redirects=True)
+    response.raise_for_status()
+    data = response.json()
+    return data.get("result", [])
+

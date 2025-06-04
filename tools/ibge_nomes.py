@@ -1,81 +1,33 @@
 """
-Este módulo foi refatorado para separar a lógica de acesso à API (pooling, cache, autenticação) e a lógica de negócio/handlers MCP.
+Façade do domínio Nomes do IBGE.
 
-- Funções de acesso à API: ibge_nomes_api.py
+Este módulo serve apenas como ponto de entrada padronizado para o domínio Nomes.
+
+- Funções utilitárias de acesso à API: ibge_nomes_api.py
 - Handlers MCP: ibge_nomes_handlers.py
-- Logger centralizado: logger.py (use get_logger para logs padronizados)
+- Logger e utilitários centralizados: logger.py, cache_utils.py, api_config.py
 
-Importe as funções necessárias dos módulos acima.
+Importe as funções/handlers do módulo ibge_nomes_handlers.py.
 """
 
-from .ibge_nomes_handlers import (
-    pesquisar_nomes,
-    ranking_nomes,
-    frequencia_nome,
-)
+from .ibge_nomes_handlers import *
 
-            params["sexo"] = sexo
-        
-        # Configuração do período
-        if decada:
-            params["decada"] = decada
-        elif periodo_inicio and periodo_fim:
-            params["periodo"] = f"{periodo_inicio},{periodo_fim}"
-        
-        # Faz a requisição
-        resultados = make_request(url, params)
-        return save_to_cache(cache_key, resultados)
-    except Exception as e:
-        logger.error(f"Erro ao obter ranking de nomes: {e}")
-        return [{"erro": str(e)}]
+# O bloco abaixo estava fora de função/classe e causava erro de indentação.
+# Se for uma função utilitária, deve estar dentro de uma função. Caso contrário, manter comentado.
 
-def frequencia_nome(
-    nome: str,
-    localidade: str = None, 
-    sexo: str = None, 
-    decada: str = None,
-    periodo_inicio: str = None,
-    periodo_fim: str = None
-) -> List[Dict]:
-    """
-    Obtém a frequência de um nome ao longo do tempo
-    
-    Args:
-        nome: Nome a ser pesquisado
-        localidade: ID da localidade (BR para Brasil, UF para estados, etc.)
-        sexo: Filtro por sexo (M ou F)
-        decada: Filtro por década (1930, 1940, etc.)
-        periodo_inicio: Ano de início do período (se não for por década)
-        periodo_fim: Ano de fim do período (se não for por década)
-    """
-    # Constrói a chave de cache baseada nos parâmetros
-    params_str = f"nome_{nome}_localidade_{localidade}_sexo_{sexo}_decada_{decada}_periodo_{periodo_inicio}_{periodo_fim}"
-    cache_key = f"nomes_frequencia_{params_str}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
-
-    try:
-        url = f"{BASE_URL_NOMES}/{nome}/frequencia"
-        
-        # Parâmetros da consulta
-        params = {}
-        
-        if localidade:
-            params["localidade"] = localidade
-        
-        if sexo:
-            params["sexo"] = sexo
-        
-        # Configuração do período
-        if decada:
-            params["decada"] = decada
-        elif periodo_inicio and periodo_fim:
-            params["periodo"] = f"{periodo_inicio},{periodo_fim}"
-        
-        # Faz a requisição
-        resultados = make_request(url, params)
-        return save_to_cache(cache_key, resultados)
-    except Exception as e:
-        logger.error(f"Erro ao obter frequência do nome '{nome}': {e}")
-        return [{"erro": str(e)}]
+# params = {}
+# if localidade:
+#     params["localidade"] = localidade
+# if sexo:
+#     params["sexo"] = sexo
+# # Configuração do período
+# if decada:
+#     params["decada"] = decada
+# elif periodo_inicio and periodo_fim:
+#     params["periodo"] = f"{periodo_inicio},{periodo_fim}"
+# # Faz a requisição
+# resultados = make_request(url, params)
+# return save_to_cache(cache_key, resultados)
+# except Exception as e:
+#     logger.error(f"Erro ao obter frequência do nome '{nome}': {e}")
+#     return [{"erro": str(e)}]

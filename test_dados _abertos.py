@@ -1,6 +1,6 @@
 import asyncio
-from portal_dados_abertos import listar_dados_abertos, buscar_dados_por_id, listar_recursos, listar_grupos, listar_organizacoes, buscar_dados_por_tag
-from config.api_config import API_CONFIG
+from tools.portal_dados_abertos import listar_dados_abertos, buscar_dados_por_id, listar_recursos, listar_grupos, listar_organizacoes, buscar_dados_por_tag
+from tools.api_config import API_CONFIG
 import httpx
 
 async def test_listar_dados_abertos():

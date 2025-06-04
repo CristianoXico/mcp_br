@@ -5,42 +5,19 @@ Documentação: https://servicodados.ibge.gov.br/api/docs/produtos?versao=1
 
 from .ibge_base import *
 
-def listar_produtos() -> List[Dict]:
-    """
-    Lista todos os produtos do IBGE
-    """
-    cache_key = "produtos_lista"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
+"""
+Façade do domínio IBGE-Produtos.
 
-    try:
-        url = f"{BASE_URL_PRODUTOS}/produtos"
-        produtos = make_request(url)
-        return save_to_cache(cache_key, produtos)
-    except Exception as e:
-        logger.error(f"Erro ao listar produtos: {e}")
-        return []
+Este módulo serve apenas como ponto de entrada padronizado para o domínio Produtos.
 
-def obter_produto(id_produto: str) -> Dict:
-    """
-    Obtém informações detalhadas de um produto pelo seu ID
-    
-    Args:
-        id_produto: ID do produto
-    """
-    cache_key = f"produtos_produto_{id_produto}"
-    cached_data = get_cached_data(cache_key)
-    if cached_data:
-        return cached_data
+- Funções utilitárias de acesso à API: ibge_produtos_api.py
+- Handlers MCP: ibge_produtos_handlers.py
+- Logger e utilitários centralizados: logger.py, cache_utils.py, api_config.py
 
-    try:
-        url = f"{BASE_URL_PRODUTOS}/produtos/{id_produto}"
-        produto = make_request(url)
-        return save_to_cache(cache_key, produto)
-    except Exception as e:
-        logger.error(f"Erro ao obter produto com ID {id_produto}: {e}")
-        return {"erro": str(e)}
+Importe as funções/handlers do módulo ibge_produtos_handlers.py.
+"""
+
+from .ibge_produtos_handlers import *
 
 def listar_produtos_por_tipo(id_tipo: str) -> List[Dict]:
     """

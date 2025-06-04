@@ -9,7 +9,11 @@ from config.api_config import API_CONFIG
 # Headers globais para autenticação
 HEADERS = {
     "Authorization": f"Bearer {API_CONFIG['dados_abertos_token']}",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/91.0.4472.124 Safari/537.36"
+    ),
     "Accept": "application/json",
     "Content-Type": "application/json",
     "X-CKAN-API-Key": API_CONFIG['dados_abertos_token'],  # Tentativa alternativa de autenticação
@@ -48,9 +52,7 @@ async def listar_dados_abertos() -> List[str]:
 
         url = "https://dados.gov.br/api/3/action/package_list"
         try:
-            # Tentar com diferentes opções de cliente
             async with httpx.AsyncClient(timeout=30.0) as client:
-                # Primeira tentativa com follow_redirects=True
                 print("DEBUG: Tentativa 1 - Com follow_redirects=True")
                 response = await client.get(url, headers=HEADERS, follow_redirects=True)
                 response.raise_for_status()
@@ -66,7 +68,9 @@ async def listar_dados_abertos() -> List[str]:
                     print("DEBUG: Recebemos HTML em vez de JSON, tentando abordagem alternativa")
                     
                     # Tentativa alternativa: usar um endpoint diferente
-                    url_alt = "https://dados.gov.br/api/3/action/current_package_list_with_resources"
+                    url_alt = (
+    "https://dados.gov.br/api/3/action/current_package_list_with_resources"
+)
                     print(f"DEBUG: Tentativa 2 - Usando endpoint alternativo: {url_alt}")
                     response = await client.get(url_alt, headers=HEADERS, follow_redirects=True)
                     response.raise_for_status()
@@ -121,7 +125,9 @@ async def buscar_dados_por_id(id_dataset: str) -> Dict:
             print(f"DEBUG: Usando dados do cache para buscar_dados_por_id: {id_dataset}")
             return cache["datasets"][id_dataset]
 
-        url = f"https://dados.gov.br/api/3/action/package_show?id={id_dataset}"
+        url = (
+    f"https://dados.gov.br/api/3/action/package_show?id={id_dataset}"
+)
         try:
             async with httpx.AsyncClient(timeout=30.0) as client:
                 print(f"DEBUG: Buscando dados para o dataset: {id_dataset}")
@@ -218,7 +224,9 @@ async def listar_recursos(id_dataset: str) -> List[Dict]:
             print(f"DEBUG: Usando dados do cache para listar_recursos: {id_dataset}")
             return cache["recursos"][id_dataset]
 
-        url = f"https://dados.gov.br/api/3/action/package_show?id={id_dataset}"
+        url = (
+    f"https://dados.gov.br/api/3/action/package_show?id={id_dataset}"
+)
         try:
             async with httpx.AsyncClient(timeout=30.0) as client:
                 print(f"DEBUG: Buscando recursos para o dataset: {id_dataset}")
@@ -231,9 +239,30 @@ async def listar_recursos(id_dataset: str) -> List[Dict]:
                     print("DEBUG: Recebemos HTML em vez de JSON, usando dados de exemplo para recursos")
                     # Dados de exemplo para desenvolvimento
                     recursos = [
-                        {"id": f"resource-{id_dataset}-1", "name": "Recurso 1", "format": "CSV", "url": "https://exemplo.com/dataset1/resource1.csv"},
-                        {"id": f"resource-{id_dataset}-2", "name": "Recurso 2", "format": "JSON", "url": "https://exemplo.com/dataset1/resource2.json"},
-                        {"id": f"resource-{id_dataset}-3", "name": "Recurso 3", "format": "XML", "url": "https://exemplo.com/dataset1/resource3.xml"}
+                        {
+                            "id": f"resource-{id_dataset}-1",
+                            "name": "Recurso 1",
+                            "format": "CSV",
+                            "url": (
+                                "https://exemplo.com/dataset1/resource1.csv"
+                            ),
+                        },
+                        {
+                            "id": f"resource-{id_dataset}-2",
+                            "name": "Recurso 2",
+                            "format": "JSON",
+                            "url": (
+                                "https://exemplo.com/dataset1/resource2.json"
+                            ),
+                        },
+                        {
+                            "id": f"resource-{id_dataset}-3",
+                            "name": "Recurso 3",
+                            "format": "XML",
+                            "url": (
+                                "https://exemplo.com/dataset1/resource3.xml"
+                            ),
+                        },
                     ]
                     if "recursos" not in cache:
                         cache["recursos"] = {}
@@ -253,15 +282,38 @@ async def listar_recursos(id_dataset: str) -> List[Dict]:
                     cache["recursos"][id_dataset] = recursos
                     salvar_cache(cache)
                     
-                    print(f"DEBUG: Resposta da API listar_recursos: {data.keys() if data else 'Sem dados'}")
+                    print(
+                        f"DEBUG: Resposta da API listar_recursos: {data.keys() if data else 'Sem dados'}"
+                    )
                     return recursos
                 except Exception as json_error:
                     print(f"Erro ao processar JSON: {json_error}")
                     # Dados de exemplo para desenvolvimento
                     recursos = [
-                        {"id": f"resource-{id_dataset}-1", "name": "Recurso 1", "format": "CSV", "url": "https://exemplo.com/dataset1/resource1.csv"},
-                        {"id": f"resource-{id_dataset}-2", "name": "Recurso 2", "format": "JSON", "url": "https://exemplo.com/dataset1/resource2.json"},
-                        {"id": f"resource-{id_dataset}-3", "name": "Recurso 3", "format": "XML", "url": "https://exemplo.com/dataset1/resource3.xml"}
+                        {
+                            "id": f"resource-{id_dataset}-1",
+                            "name": "Recurso 1",
+                            "format": "CSV",
+                            "url": (
+                                "https://exemplo.com/dataset1/resource1.csv"
+                            ),
+                        },
+                        {
+                            "id": f"resource-{id_dataset}-2",
+                            "name": "Recurso 2",
+                            "format": "JSON",
+                            "url": (
+                                "https://exemplo.com/dataset1/resource2.json"
+                            ),
+                        },
+                        {
+                            "id": f"resource-{id_dataset}-3",
+                            "name": "Recurso 3",
+                            "format": "XML",
+                            "url": (
+                                "https://exemplo.com/dataset1/resource3.xml"
+                            ),
+                        },
                     ]
                     if "recursos" not in cache:
                         cache["recursos"] = {}
@@ -272,23 +324,55 @@ async def listar_recursos(id_dataset: str) -> List[Dict]:
             print(f"Erro na chamada da API listar_recursos: {api_error}")
             # Dados de exemplo para desenvolvimento
             recursos = [
-                {"id": f"resource-{id_dataset}-1", "name": "Recurso 1", "format": "CSV", "url": "https://exemplo.com/dataset1/resource1.csv"},
-                {"id": f"resource-{id_dataset}-2", "name": "Recurso 2", "format": "JSON", "url": "https://exemplo.com/dataset1/resource2.json"},
-                {"id": f"resource-{id_dataset}-3", "name": "Recurso 3", "format": "XML", "url": "https://exemplo.com/dataset1/resource3.xml"}
+                {
+                    "id": f"resource-{id_dataset}-1",
+                    "name": "Recurso 1",
+                    "format": "CSV",
+                    "url": "https://exemplo.com/dataset1/resource1.csv",
+                },
+                {
+                    "id": f"resource-{id_dataset}-2",
+                    "name": "Recurso 2",
+                    "format": "JSON",
+                    "url": "https://exemplo.com/dataset1/resource2.json",
+                },
+                {
+                    "id": f"resource-{id_dataset}-3",
+                    "name": "Recurso 3",
+                    "format": "XML",
+                    "url": "https://exemplo.com/dataset1/resource3.xml",
+                },
             ]
             if "recursos" not in cache:
                 cache["recursos"] = {}
             cache["recursos"][id_dataset] = recursos
             salvar_cache(cache)
             return recursos
+
     except Exception as e:
         print(f"Erro inesperado em listar_recursos: {e}")
         # Dados de exemplo para desenvolvimento
         return [
-            {"id": f"resource-{id_dataset}-1", "name": "Recurso 1", "format": "CSV", "url": "https://exemplo.com/dataset1/resource1.csv"},
-            {"id": f"resource-{id_dataset}-2", "name": "Recurso 2", "format": "JSON", "url": "https://exemplo.com/dataset1/resource2.json"},
-            {"id": f"resource-{id_dataset}-3", "name": "Recurso 3", "format": "XML", "url": "https://exemplo.com/dataset1/resource3.xml"}
+            {
+                "id": f"resource-{id_dataset}-1",
+                "name": "Recurso 1",
+                "format": "CSV",
+                "url": "https://exemplo.com/dataset1/resource1.csv",
+            },
+            {
+                "id": f"resource-{id_dataset}-2",
+                "name": "Recurso 2",
+                "format": "JSON",
+                "url": "https://exemplo.com/dataset1/resource2.json",
+            },
+            {
+                "id": f"resource-{id_dataset}-3",
+                "name": "Recurso 3",
+                "format": "XML",
+                "url": "https://exemplo.com/dataset1/resource3.xml",
+            },
         ]
+
 
 async def buscar_recurso_por_id(id_recurso: str) -> Dict:
     """Busca detalhes de um recurso específico"""
@@ -297,7 +381,9 @@ async def buscar_recurso_por_id(id_recurso: str) -> Dict:
         if "recurso_detalhes" in cache and id_recurso in cache["recurso_detalhes"]:
             return cache["recurso_detalhes"][id_recurso]
 
-        url = f"https://dados.gov.br/api/3/action/resource_show?id={id_recurso}"
+        url = (
+            f"https://dados.gov.br/api/3/action/resource_show?id={id_recurso}"
+        )
         try:
             async with httpx.AsyncClient() as client:
                 response = await client.get(url, headers=HEADERS, follow_redirects=True)
@@ -322,6 +408,7 @@ async def buscar_recurso_por_id(id_recurso: str) -> Dict:
         print(f"Erro inesperado em buscar_recurso_por_id: {e}")
         return {"erro": str(e)}
 
+
 async def buscar_grupo_por_id(id_grupo: str) -> Dict:
     """Busca detalhes de um grupo específico"""
     try:
@@ -329,23 +416,27 @@ async def buscar_grupo_por_id(id_grupo: str) -> Dict:
         if "grupo_detalhes" in cache and id_grupo in cache["grupo_detalhes"]:
             return cache["grupo_detalhes"][id_grupo]
 
-        url = f"https://dados.gov.br/api/3/action/group_show?id={id_grupo}"
+        url = (
+            f"https://dados.gov.br/api/3/action/group_show?id={id_grupo}"
+        )
         try:
             async with httpx.AsyncClient() as client:
                 response = await client.get(url, headers=HEADERS, follow_redirects=True)
                 response.raise_for_status()
                 data = response.json()
-                
+
                 # A API retorna os detalhes do grupo em 'result'
                 result = data.get('result', {})
-                
+
                 # Salva no cache
                 if "grupo_detalhes" not in cache:
                     cache["grupo_detalhes"] = {}
                 cache["grupo_detalhes"][id_grupo] = result
                 salvar_cache(cache)
-                
-                print(f"DEBUG: Resposta da API buscar_grupo_por_id: {data.keys() if data else 'Sem dados'}")
+
+                print(
+                    f"DEBUG: Resposta da API buscar_grupo_por_id: {data.keys() if data else 'Sem dados'}"
+                )
                 return result
         except Exception as api_error:
             print(f"Erro na chamada da API buscar_grupo_por_id: {api_error}")
@@ -361,12 +452,15 @@ async def buscar_organizacao_por_id(id_org: str) -> Dict:
         if "org_detalhes" in cache and id_org in cache["org_detalhes"]:
             return cache["org_detalhes"][id_org]
 
-        url = f"https://dados.gov.br/api/3/action/organization_show?id={id_org}"
+        url = (
+            f"https://dados.gov.br/api/3/action/organization_show?id={id_org}"
+        )
         try:
             async with httpx.AsyncClient() as client:
                 response = await client.get(url, headers=HEADERS, follow_redirects=True)
                 response.raise_for_status()
                 data = response.json()
+
                 
                 # A API retorna os detalhes da organização em 'result'
                 result = data.get('result', {})
@@ -394,7 +488,9 @@ async def listar_grupos() -> List[str]:
             print("DEBUG: Usando dados do cache para listar_grupos")
             return cache["grupos"]
 
-        url = "https://dados.gov.br/api/3/action/group_list"
+        url = (
+    "https://dados.gov.br/api/3/action/group_list"
+)
         try:
             async with httpx.AsyncClient(timeout=30.0) as client:
                 print("DEBUG: Buscando lista de grupos")
@@ -450,7 +546,9 @@ async def listar_organizacoes() -> List[str]:
             print("DEBUG: Usando dados do cache para listar_organizacoes")
             return cache["organizacoes"]
 
-        url = "https://dados.gov.br/api/3/action/organization_list"
+        url = (
+    "https://dados.gov.br/api/3/action/organization_list"
+)
         try:
             async with httpx.AsyncClient(timeout=30.0) as client:
                 print("DEBUG: Buscando lista de organizacoes")
@@ -634,7 +732,9 @@ async def buscar_dados_por_palavra_chave(keyword: str) -> List[Dict]:
             print(f"DEBUG: Usando dados do cache para buscar_dados_por_palavra_chave: {keyword}")
             return cache["keywords"][keyword]
 
-        url = f"https://dados.gov.br/api/3/action/package_search?q={keyword}"
+        url = (
+    f"https://dados.gov.br/api/3/action/package_search?q={keyword}"
+)
         
         try:
             async with httpx.AsyncClient(timeout=30.0) as client:
@@ -759,7 +859,9 @@ async def listar_formatos() -> List[str]:
             print("DEBUG: Usando dados do cache para listar_formatos")
             return cache["formatos"]
 
-        url = "https://dados.gov.br/api/3/action/format_list"
+        url = (
+    "https://dados.gov.br/api/3/action/format_list"
+)
         
         try:
             async with httpx.AsyncClient(timeout=30.0) as client:
