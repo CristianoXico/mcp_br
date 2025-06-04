@@ -1,0 +1,9 @@
+{
+  "servers": [
+    {
+      "name": "mcp-br",
+      "command": ["cmd", "/c", "mcp_env\\Scripts\\activate && python mcp_server_quickstart.py"],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

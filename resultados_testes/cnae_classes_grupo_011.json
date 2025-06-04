@@ -1,0 +1,149 @@
+[
+  {
+    "id": "01113",
+    "descricao": "CULTIVO DE CEREAIS",
+    "grupo": {
+      "id": "011",
+      "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+      "divisao": {
+        "id": "01",
+        "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+        "secao": {
+          "id": "A",
+          "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+        }
+      }
+    },
+    "observacoes": [
+      "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+      "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+    ]
+  },
+  {
+    "id": "01121",
+    "descricao": "CULTIVO DE ALGODÃO HERBÁCEO E DE OUTRAS FIBRAS DE LAVOURA TEMPORÁRIA",
+    "grupo": {
+      "id": "011",
+      "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+      "divisao": {
+        "id": "01",
+        "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+        "secao": {
+          "id": "A",
+          "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+        }
+      }
+    },
+    "observacoes": [
+      "Esta classe compreende - o cultivo de algodão herbáceo\r\n- o cultivo de juta, junco, linho, malva, rami, sorgo vassoura e outras fibras de lavoura temporária não especificadas anteriormente",
+      "Esta classe compreende ainda - o descaroçamento do algodão, quando atividade complementar ao cultivo\r\n- o processo de maceração e secagem das fibras desta classe\r\n- a produção de sementes e mudas das fibras desta classe, quando atividade complementar ao cultivo",
+      "Esta classe NÃO compreende - o cultivo de algodão arbóreo (01.39-3)\r\n- a produção de sementes e mudas certificadas das fibras desta classe, inclusive modificadas geneticamente (grupo 01.4)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o serviço de descaroçamento de algodão realizado sob contrato (01.63-6)\r\n- a preparação do algodão e de outras fibras de lavoura temporária, em estabelecimento não-agrícola (13.11-1) e (13.12-0)"
+    ]
+  },
+  {
+    "id": "01130",
+    "descricao": "CULTIVO DE CANA-DE-AÇÚCAR",
+    "grupo": {
+      "id": "011",
+      "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+      "divisao": {
+        "id": "01",
+        "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+        "secao": {
+          "id": "A",
+          "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+        }
+      }
+    },
+    "observacoes": [
+      "Esta classe compreende - o cultivo de cana-de-açúcar",
+      "Esta classe compreende ainda - a produção de toletes (mudas) de cana-de-açúcar, quando atividade complementar ao cultivo",
+      "Esta classe NÃO compreende - a produção de toletes (mudas) certificadas de cana-de-açúcar, inclusive modificadas geneticamente (01.42-3)\r\n- os serviços de preparação de terreno, cultivo e corte da cana realizados sob contrato (01.61-0)\r\n- a produção de açúcar em bruto (usinas de açúcar) (10.71-6)\r\n- a fabricação, refino e moagem de açúcar de cana (10.72-4)\r\n- a produção de álcool de cana (19.31-4)"
+    ]
+  },
+  {
+    "id": "01148",
+    "descricao": "CULTIVO DE FUMO",
+    "grupo": {
+      "id": "011",
+      "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+      "divisao": {
+        "id": "01",
+        "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+        "secao": {
+          "id": "A",
+          "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+        }
+      }
+    },
+    "observacoes": [
+      "Esta classe compreende - o cultivo de fumo",
+      "Esta classe compreende ainda - o processamento do fumo através de secagem, defumação e outros processos, quando atividade complementar ao cultivo\r\n- a produção de semente de fumo, quando atividade complementar ao cultivo",
+      "Esta classe NÃO compreende - a produção de sementes certificadas de fumo, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o processamento do fumo através de secagem, defumação e outros processos realizado em unidade industrial (12.10-7)"
+    ]
+  },
+  {
+    "id": "01156",
+    "descricao": "CULTIVO DE SOJA",
+    "grupo": {
+      "id": "011",
+      "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+      "divisao": {
+        "id": "01",
+        "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+        "secao": {
+          "id": "A",
+          "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+        }
+      }
+    },
+    "observacoes": [
+      "Esta classe compreende - o cultivo de soja",
+      "Esta classe compreende ainda - a produção de semente de soja, quando atividade complementar ao cultivo",
+      "Esta classe NÃO compreende - a produção de sementes certificadas de soja, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato\r\n(01.61-0)\r\n- a produção de óleo de soja em bruto, inclusive torta e farelo (10.41-4)\r\n- a produção de biocombustível (19.32-2)"
+    ]
+  },
+  {
+    "id": "01164",
+    "descricao": "CULTIVO DE OLEAGINOSAS DE LAVOURA TEMPORÁRIA, EXCETO SOJA",
+    "grupo": {
+      "id": "011",
+      "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+      "divisao": {
+        "id": "01",
+        "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+        "secao": {
+          "id": "A",
+          "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+        }
+      }
+    },
+    "observacoes": [
+      "Esta classe compreende - o cultivo de amendoim, colza, gergelim, girassol, linho, mamona e outras oleaginosas de lavoura temporária não especificadas anteriormente",
+      "Esta classe compreende ainda - a produção de sementes das oleaginosas desta classe, quando atividade complementar ao cultivo",
+      "Esta classe NÃO compreende - o cultivo de soja (01.15-6)\r\n- a produção de sementes certificadas das oleaginosas desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- a produção de óleos vegetais em bruto (10.41-4)\r\n- a produção de biocombustível (19.32-2)"
+    ]
+  },
+  {
+    "id": "01199",
+    "descricao": "CULTIVO DE PLANTAS DE LAVOURA TEMPORÁRIA NÃO ESPECIFICADAS ANTERIORMENTE",
+    "grupo": {
+      "id": "011",
+      "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+      "divisao": {
+        "id": "01",
+        "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+        "secao": {
+          "id": "A",
+          "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+        }
+      }
+    },
+    "observacoes": [
+      "Esta classe compreende - o cultivo de abóbora, feijão verde, palma rosa, tomate rasteiro e vetiver\r\n- o cultivo de capim napier, milho forrageiro, palma forrageira, trevo forrageiro\r\n- o cultivo de abacaxi, melancia, melão\r\n- o cultivo de ervilha em grão seco, fava, feijão\r\n- o cultivo de alho, cebola\r\n- o cultivo de batata-inglesa, mandioca\r\n- o cultivo de outras plantas de lavoura temporária não especificadas anteriormente",
+      "Esta classe compreende ainda - a produção de sementes e mudas das plantas desta classe, quando atividade complementar ao cultivo",
+      "Esta classe NÃO compreende - o cultivo de morango (01.21-1)\r\n- o cultivo de tomate estaqueado (01.21-1)\r\n- o cultivo de araruta, batata-doce, cará e inhame (01.21-1)\r\n- o cultivo de legumes e hortaliças (01.21-1)\r\n- a produção de sementes e mudas certificadas das plantas desta classe, inclusive modificadas geneticamente (grupo 01.4)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato\r\n(01.61-0)\r\n- o beneficiamento ou a transformação dos produtos agrícolas desta classe (10.31-7) e (10.32-5)\r\n- a produção de suco de frutas e de legumes desta classe (10.33-3)"
+    ]
+  }
+]

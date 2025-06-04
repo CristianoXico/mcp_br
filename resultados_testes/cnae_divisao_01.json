@@ -1,0 +1,11 @@
+{
+  "id": "01",
+  "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+  "secao": {
+    "id": "A",
+    "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+  },
+  "observacoes": [
+    "Esta divisão compreende o cultivo de lavouras e a criação e produção animal.\r\n\r\nNo cultivo de lavouras são identificados quatro segmentos (grupos): produção de lavouras temporárias (grupo 01.1); horticultura e floricultura (grupo 01.2); produção de lavouras permanentes (grupo 01.3); produção de sementes e mudas certificadas (grupo 01.4), onde estão incluídos os processos de cultivo tradicional, orgânico, bem como o cultivo de plantas modificadas geneticamente.\r\n\r\nNa criação e produção animal identifica-se um único grupo: pecuária (grupo 01.5), onde também se inclui a criação de animais modificados geneticamente.\r\n\r\nA produção de sementes e mudas das lavouras, quando associada ao cultivo, classifica-se na mesma classe CNAE do cultivo. As unidades especializadas na produção de sementes e mudas certificadas, inclusive modificadas geneticamente, são classificadas em categoria própria (grupo 01.4).\r\n\r\nO processamento, na unidade de produção agrícola, de produtos agrícolas ou pecuários provenientes de produção própria classifica-se no mesmo código da atividade da produção. Quando o processamento é desempenhado por terceiros, classifica-se na seção C - indústrias de transformação.\r\n\r\nEsta divisão compreende também a caça tradicional e com armadilha, as atividades de apoio à agricultura e à pecuária e às atividades de pós-colheita.\r\n\r\nAs atividades de apoio à agricultura - preparo do solo, plantio, colheita, etc. - e de apoio à pecuária - manejo dos animais, inseminação artificial, etc. - executadas sob contrato estão incluídas nesta divisão em categorias específicas de serviços de apoio à agricultura (01.61-0) e à pecuária (01.62-8). Estes serviços, quando executados em unidades de produção agrícola ou de pecuária com recursos próprios, ficam incluídos na mesma classe onde se classifica a unidade de produção.\r\n\r\nPor atividades pós-colheita (01.63-6) entende-se a preparação primária de produtos agrícolas para o mercado (limpeza, ornamentação, classificação, desinfecção)."
+  ]
+}

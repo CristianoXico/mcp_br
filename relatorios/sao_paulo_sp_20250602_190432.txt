@@ -1,0 +1,44 @@
+
+================================================================================
+RELATÓRIO: São Paulo
+================================================================================
+Data de geração: 2025-06-02 19:04:32
+
+PERÍODO DE ANÁLISE: ANO
+Data inicial: 2023-01-01
+Data final: 2023-12-31
+Data de referência: 2025-06-02
+
+MUNICÍPIO: São Paulo - SP
+Código IBGE: 3550308
+
+AUXÍLIOS EMERGENCIAIS:
+Total de beneficiários: 0
+Total de recursos: R$ 180.000.000,00
+Média por beneficiário: R$ 0,00
+
+BOLSA FAMÍLIA:
+Total de beneficiários: 0
+Total de recursos: R$ 180.000.000,00
+Média por beneficiário: R$ 0,00
+
+CONVÊNIOS:
+Total de registros: 2
+Total de recursos: R$ 3.000.000,00
+Média por convênio: R$ 1.500.000,00
+
+TRANSFERÊNCIAS:
+Total de registros: 2
+Total de recursos: R$ 3.000.000,00
+Média por transferência: R$ 1.500.000,00
+
+ESTATÍSTICAS GERAIS:
+Total de recursos recebidos: R$ 366.000.000,00
+
+Distribuição de recursos:
+- Auxílios Emergenciais: 49.2%
+- Bolsa Família: 49.2%
+- Convênios: 0.8%
+- Transferências: 0.8%
+
+================================================================================

@@ -1,0 +1,166 @@
+{
+  "dados_abertos": [
+    "dataset-1",
+    "dataset-2",
+    "dataset-3"
+  ],
+  "datasets": {
+    "dataset-1": {
+      "id": "dataset-1",
+      "name": "exemplo-dataset-1",
+      "title": "Exemplo de Dataset dataset-1",
+      "notes": "Este é um exemplo de dataset para desenvolvimento.",
+      "resources": [
+        {
+          "id": "resource-dataset-1-1",
+          "name": "Recurso 1",
+          "format": "CSV"
+        },
+        {
+          "id": "resource-dataset-1-2",
+          "name": "Recurso 2",
+          "format": "JSON"
+        }
+      ]
+    }
+  },
+  "recursos": {
+    "dataset-1": [
+      {
+        "id": "resource-dataset-1-1",
+        "name": "Recurso 1",
+        "format": "CSV",
+        "url": "https://exemplo.com/dataset1/resource1.csv"
+      },
+      {
+        "id": "resource-dataset-1-2",
+        "name": "Recurso 2",
+        "format": "JSON",
+        "url": "https://exemplo.com/dataset1/resource2.json"
+      },
+      {
+        "id": "resource-dataset-1-3",
+        "name": "Recurso 3",
+        "format": "XML",
+        "url": "https://exemplo.com/dataset1/resource3.xml"
+      }
+    ]
+  },
+  "grupos": [
+    "saude",
+    "educacao",
+    "seguranca",
+    "economia",
+    "meio-ambiente",
+    "cultura"
+  ],
+  "organizacoes": [
+    "ministerio-da-saude",
+    "ministerio-da-educacao",
+    "ministerio-da-economia",
+    "ibge",
+    "ipea",
+    "inpe",
+    "embrapa",
+    "banco-central"
+  ],
+  "tags": {
+    "saude": [
+      {
+        "id": "dataset-tag-saude-1",
+        "name": "exemplo-saude-1",
+        "title": "Exemplo de Dataset com tag saude #1",
+        "notes": "Este é um exemplo de dataset com a tag saude para desenvolvimento.",
+        "tags": [
+          {
+            "name": "saude"
+          }
+        ]
+      },
+      {
+        "id": "dataset-tag-saude-2",
+        "name": "exemplo-saude-2",
+        "title": "Exemplo de Dataset com tag saude #2",
+        "notes": "Este é outro exemplo de dataset com a tag saude para desenvolvimento.",
+        "tags": [
+          {
+            "name": "saude"
+          },
+          {
+            "name": "dados-abertos"
+          }
+        ]
+      }
+    ]
+  },
+  "formatos": [
+    "CSV",
+    "JSON",
+    "XML",
+    "PDF",
+    "XLS",
+    "XLSX",
+    "DOC",
+    "DOCX",
+    "TXT",
+    "ZIP",
+    "HTML"
+  ],
+  "licencas": [
+    {
+      "id": "cc-by",
+      "title": "Creative Commons Attribution",
+      "url": "http://www.opendefinition.org/licenses/cc-by"
+    },
+    {
+      "id": "cc-by-sa",
+      "title": "Creative Commons Attribution Share-Alike",
+      "url": "http://www.opendefinition.org/licenses/cc-by-sa"
+    },
+    {
+      "id": "cc-zero",
+      "title": "Creative Commons CCZero",
+      "url": "http://www.opendefinition.org/licenses/cc-zero"
+    },
+    {
+      "id": "odc-pddl",
+      "title": "Open Data Commons Public Domain Dedication and License",
+      "url": "http://www.opendefinition.org/licenses/odc-pddl"
+    }
+  ],
+  "keywords": {
+    "educacao": [
+      {
+        "id": "dataset-keyword-educacao-1",
+        "name": "exemplo-educacao-1",
+        "title": "Exemplo de Dataset com palavra-chave educacao #1",
+        "notes": "Este é um exemplo de dataset com a palavra-chave educacao para desenvolvimento.",
+        "tags": [
+          {
+            "name": "exemplo"
+          },
+          {
+            "name": "educacao"
+          }
+        ]
+      },
+      {
+        "id": "dataset-keyword-educacao-2",
+        "name": "exemplo-educacao-2",
+        "title": "Exemplo de Dataset com palavra-chave educacao #2",
+        "notes": "Este é outro exemplo de dataset com a palavra-chave educacao para desenvolvimento.",
+        "tags": [
+          {
+            "name": "exemplo"
+          },
+          {
+            "name": "educacao"
+          },
+          {
+            "name": "dados-abertos"
+          }
+        ]
+      }
+    ]
+  }
+}

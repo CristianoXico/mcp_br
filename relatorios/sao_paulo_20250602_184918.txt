@@ -1,0 +1,27 @@
+
+================================================================================
+RELATÓRIO: São Paulo
+================================================================================
+Data de geração: 2025-06-02 18:49:13
+
+PERÍODO DE ANÁLISE: TRIMESTRE
+Data inicial: 2023-04-01
+Data final: 2023-06-30
+Data de referência: 2023-06-01
+
+ESTADO: São Paulo (SP)
+Região: Sudeste (SE)
+Código IBGE: 35
+Total de municípios: 645
+
+ESTATÍSTICAS (baseadas em amostra de 3 municípios):
+Total de recursos: R$ 558.000.000,00
+Média de recursos por município: R$ 186.000.000,00
+
+Distribuição por programa:
+- Auxílios Emergenciais: R$ 540.000.000,00
+- Bolsa Família: R$ 0,00
+- Convênios: R$ 9.000.000,00
+- Transferências: R$ 9.000.000,00
+
+================================================================================

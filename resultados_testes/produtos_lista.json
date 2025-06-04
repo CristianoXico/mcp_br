@@ -1,0 +1,12 @@
+{
+  "id": 20700,
+  "tipo": "Estatísticas",
+  "titulo": "1995-1996#censoagro6",
+  "alias": "1995-1996-censoagro1995",
+  "sigla": "",
+  "catId": 2017,
+  "catTitle": "NP-Censo Agropecuário",
+  "parentCatId": 1915,
+  "parentCatTitle": "NP-Agricultura, pecuária, produção florestal, pesca e aquicultura",
+  "path": "novo-portal/estatisticas/estatisticas-economicas/estatisticas-economicas-setoriais/agricultura-pecuaria-producao-florestal-pesca-e-aquicultura/np-censo-agropecuario"
+}

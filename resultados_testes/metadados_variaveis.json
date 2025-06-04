@@ -1,0 +1,5 @@
+[
+  {
+    "erro": "Server error '503 Service Unavailable' for url 'https://servicodados.ibge.gov.br/api/v2/metadados-estatisticos/variaveis'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+  }
+]

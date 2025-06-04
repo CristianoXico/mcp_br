@@ -1,0 +1,91 @@
+{
+  "count": 8,
+  "page": 1,
+  "totalPages": 1,
+  "nextPage": 0,
+  "previousPage": 0,
+  "showingFrom": 1,
+  "showingTo": 8,
+  "items": [
+    {
+      "chave": 213883,
+      "id": 13883,
+      "titulo": "Sumula do curso de publicações seriadas / Elza Lima e Silva Maia. -",
+      "autor": "Maia, Elza Lima e Silva",
+      "ano": "1983",
+      "link": "http://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=213883",
+      "classificacao": "025:05",
+      "nomenclatura": ""
+    },
+    {
+      "chave": 29803,
+      "id": 9803,
+      "titulo": "Anais do 4. Seminario sobre Publicações Oficiais Brasileiras : Brasilia, 27 a 31 de julho de 1981. -",
+      "autor": "",
+      "ano": "1981.",
+      "link": "http://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=29803",
+      "classificacao": "087.7:061.3(81)",
+      "nomenclatura": ""
+    },
+    {
+      "chave": 213510,
+      "id": 13510,
+      "titulo": "Publicações periodicas : seu tratamento nas bibliotecas especializadas / por David Grenfell ; tradução para o portugues de Rosa Salomão Camilleri. -",
+      "autor": "Grenfell, David, 1920-",
+      "ano": "1964.",
+      "link": "http://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=213510",
+      "classificacao": "025.3:05",
+      "nomenclatura": ""
+    },
+    {
+      "chave": 215284,
+      "id": 15284,
+      "titulo": "Memorias del II Seminario de Publicaciones Seriadas / Instituto Colombiano para el Fomento de la Educacion Superior, Subdireccion de Fomento, Division de Recursos Bibliograficos. -",
+      "autor": "",
+      "ano": "1983.",
+      "link": "http://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=215284",
+      "classificacao": "05:061.3",
+      "nomenclatura": ""
+    },
+    {
+      "chave": 217750,
+      "id": 17750,
+      "titulo": "Anais do 5. Seminario sobre Publicações Oficiais Brasileiras : Brasilia, 3 a 8 de julho de 1983. -",
+      "autor": "",
+      "ano": "1985.",
+      "link": "http://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=217750",
+      "classificacao": "087.7:061.3(81)",
+      "nomenclatura": ""
+    },
+    {
+      "chave": 214882,
+      "id": 14882,
+      "titulo": "Serials librarianship / edited by Ross Bourne. -",
+      "autor": "Bourne, Ross",
+      "ano": "[1980].",
+      "link": "http://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=214882",
+      "classificacao": "025:05",
+      "nomenclatura": ""
+    },
+    {
+      "chave": 226672,
+      "id": 26672,
+      "titulo": "Estrutura e apresentaçao de publicaçoes cientificas. -",
+      "autor": "Castro, Claudio de Moura, 1938-",
+      "ano": "1976.",
+      "link": "http://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=226672",
+      "classificacao": "655.411",
+      "nomenclatura": ""
+    },
+    {
+      "chave": 12223,
+      "id": 2223,
+      "titulo": "Como se faz uma tese em ciências humanas",
+      "autor": "Eco, Umberto, 1932-",
+      "ano": "1977",
+      "link": "http://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=12223",
+      "classificacao": "",
+      "nomenclatura": ""
+    }
+  ]
+}

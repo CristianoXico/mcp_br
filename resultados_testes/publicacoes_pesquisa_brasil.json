@@ -1,0 +1,4 @@
+{
+  "items": [],
+  "erro": "Client error '404 Not Found' for url 'https://servicodados.ibge.gov.br/api/v1/publicacoes/publicacoes/busca/brasil?qtd=10&page=1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+}

@@ -1,0 +1,40 @@
+
+================================================================================
+RELATÓRIO: São Paulo
+================================================================================
+Data de geração: 2025-06-02 19:46:28
+
+PERÍODO DE ANÁLISE: MES
+Data inicial: 2025-06-01
+Data final: 2025-06-30
+Data de referência: 2025-06-02
+
+ESTADO: São Paulo (SP)
+Região: Sudeste (SE)
+Código IBGE: 35
+Total de municípios: 645
+
+DADOS DEMOGRÁFICOS:
+População total: N/A
+Densidade demográfica: N/A hab/km²
+Área territorial: N/A km²
+
+DADOS SOCIOECONÔMICOS:
+PIB: R$ 2.000.000.000.000,00
+PIB per capita: R$ 43.500,00
+Ano de referência (PIB): 2020
+IDH: 0.783
+Classificação IDH: Alto
+Ano de referência (IDH): 2010
+
+Educação:
+- Taxa Alfabetizacao: 95.4%
+- Escolas Ensino Fundamental: 12.000
+- Escolas Ensino Medio: 5.000
+
+Saúde:
+- Estabelecimentos Saude: 60.000
+- Leitos Internacao: 100.000
+- Medicos Por Mil Habitantes: 3.2
+
+================================================================================

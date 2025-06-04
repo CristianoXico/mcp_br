@@ -1,0 +1,31 @@
+{
+  "municipio": "São Paulo",
+  "ano": 2023,
+  "familias_vulneraveis": 80432,
+  "extrema_pobreza": 34982,
+  "bolsa_familia": {
+    "familias_beneficiadas": 28910,
+    "valor_medio": 684.72
+  },
+  "saneamento": {
+    "agua_encanada": 78.4,
+    "coleta_esgoto": 56.7,
+    "coleta_lixo": 88.9
+  },
+  "emprego": {
+    "taxa_informalidade": 43.2,
+    "desemprego": 12.1,
+    "microempresas_ativas": 10241
+  },
+  "educacao": {
+    "escolaridade_media": 7.4,
+    "taxa_analfabetismo": 12.5
+  },
+  "saude_basica": {
+    "cobertura_aps": 84.1
+  },
+  "seguranca": {
+    "homicidios_ano": 294,
+    "violencia_domestica": 432
+  }
+}

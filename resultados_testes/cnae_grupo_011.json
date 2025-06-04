@@ -1,0 +1,15 @@
+{
+  "id": "011",
+  "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+  "divisao": {
+    "id": "01",
+    "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+    "secao": {
+      "id": "A",
+      "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+    }
+  },
+  "observacoes": [
+    "Este grupo compreende o cultivo de plantas de ciclo vegetativo de curta duração, até 1 (um) ano, utilizando técnicas de cultivo tradicional, orgânico, ou ainda o cultivo de plantas modificadas geneticamente."
+  ]
+}

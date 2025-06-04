@@ -1,0 +1,1025 @@
+[
+  {
+    "id": "0111301",
+    "descricao": "CULTIVO DE ARROZ",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "ARROZ QUANDO ATIVIDADE COMPLEMENTAR AO CULTIVO; BENEFICIAMENTO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de arroz",
+      "Esta subclasse compreende ainda - o beneficiamento de arroz em estabelecimento agrícola, quando atividade complementar ao cultivo \r\n\r\n- a produção de sementes de arroz, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - a produção de sementes certificadas de arroz, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de arroz realizado no estabelecimento agrícola sob contrato (0163-6/00)\r\n- a produção de óleo de arroz em bruto (1041-4/00)\r\n- o beneficiamento de arroz em estabelecimento não-agrícola (1061-9/01)"
+    ]
+  },
+  {
+    "id": "0111301",
+    "descricao": "CULTIVO DE ARROZ",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "ARROZ; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de arroz",
+      "Esta subclasse compreende ainda - o beneficiamento de arroz em estabelecimento agrícola, quando atividade complementar ao cultivo \r\n\r\n- a produção de sementes de arroz, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - a produção de sementes certificadas de arroz, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de arroz realizado no estabelecimento agrícola sob contrato (0163-6/00)\r\n- a produção de óleo de arroz em bruto (1041-4/00)\r\n- o beneficiamento de arroz em estabelecimento não-agrícola (1061-9/01)"
+    ]
+  },
+  {
+    "id": "0111301",
+    "descricao": "CULTIVO DE ARROZ",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE ARROZ (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de arroz",
+      "Esta subclasse compreende ainda - o beneficiamento de arroz em estabelecimento agrícola, quando atividade complementar ao cultivo \r\n\r\n- a produção de sementes de arroz, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - a produção de sementes certificadas de arroz, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de arroz realizado no estabelecimento agrícola sob contrato (0163-6/00)\r\n- a produção de óleo de arroz em bruto (1041-4/00)\r\n- o beneficiamento de arroz em estabelecimento não-agrícola (1061-9/01)"
+    ]
+  },
+  {
+    "id": "0111302",
+    "descricao": "CULTIVO DE MILHO",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "MILHO QUANDO ATIVIDADE COMPLEMENTAR AO CULTIVO; BENEFICIAMENTO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de milho",
+      "Esta subclasse compreende ainda - o beneficiamento de milho em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de milho, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de milho forrageiro (0119-9/99)\r\n- a produção de sementes certificadas de milho, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de milho realizado em estabelecimento agrícola sob contrato (0163-6/00)\r\n- a moagem e a fabricação de farinha de milho (fubá) e derivados (1064-3/00)\r\n- a fabricação de óleo de milho em bruto (1065-1/02)\r\n- a fabricação de biocombustível (1932-2/00)"
+    ]
+  },
+  {
+    "id": "0111302",
+    "descricao": "CULTIVO DE MILHO",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "MILHO; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de milho",
+      "Esta subclasse compreende ainda - o beneficiamento de milho em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de milho, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de milho forrageiro (0119-9/99)\r\n- a produção de sementes certificadas de milho, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de milho realizado em estabelecimento agrícola sob contrato (0163-6/00)\r\n- a moagem e a fabricação de farinha de milho (fubá) e derivados (1064-3/00)\r\n- a fabricação de óleo de milho em bruto (1065-1/02)\r\n- a fabricação de biocombustível (1932-2/00)"
+    ]
+  },
+  {
+    "id": "0111302",
+    "descricao": "CULTIVO DE MILHO",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE MILHO (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de milho",
+      "Esta subclasse compreende ainda - o beneficiamento de milho em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de milho, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de milho forrageiro (0119-9/99)\r\n- a produção de sementes certificadas de milho, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de milho realizado em estabelecimento agrícola sob contrato (0163-6/00)\r\n- a moagem e a fabricação de farinha de milho (fubá) e derivados (1064-3/00)\r\n- a fabricação de óleo de milho em bruto (1065-1/02)\r\n- a fabricação de biocombustível (1932-2/00)"
+    ]
+  },
+  {
+    "id": "0111303",
+    "descricao": "CULTIVO DE TRIGO",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE TRIGO (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de trigo",
+      "Esta subclasse compreende ainda - o beneficiamento do trigo em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de trigo, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de trigo preto (0111-3/99)\r\n- a produção de sementes certificadas de trigo, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de trigo realizado em estabelecimento agrícola sob contrato (0163-6/00)\r\n- a moagem do trigo e a produção de derivados (1062-7/00)"
+    ]
+  },
+  {
+    "id": "0111303",
+    "descricao": "CULTIVO DE TRIGO",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "TRIGO QUANDO ATIVIDADE COMPLEMENTAR AO CULTIVO; BENEFICIAMENTO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de trigo",
+      "Esta subclasse compreende ainda - o beneficiamento do trigo em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de trigo, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de trigo preto (0111-3/99)\r\n- a produção de sementes certificadas de trigo, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de trigo realizado em estabelecimento agrícola sob contrato (0163-6/00)\r\n- a moagem do trigo e a produção de derivados (1062-7/00)"
+    ]
+  },
+  {
+    "id": "0111303",
+    "descricao": "CULTIVO DE TRIGO",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "TRIGO; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de trigo",
+      "Esta subclasse compreende ainda - o beneficiamento do trigo em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de trigo, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de trigo preto (0111-3/99)\r\n- a produção de sementes certificadas de trigo, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de trigo realizado em estabelecimento agrícola sob contrato (0163-6/00)\r\n- a moagem do trigo e a produção de derivados (1062-7/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "ALPISTE; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "AVEIA; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "CENTEIO; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "CEVADA; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "MILHETO; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "PAINÇO; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE ALPISTE (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE AVEIA (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE CENTEIO (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE CEVADA (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE MILHETO (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE PAINÇO (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE SORGO (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE TRIGO MOURISCO (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE TRIGO PRETO (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE TRIGO SARRACENO (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SEMENTE DE TRITICALE (QUANDO REALIZADA JUNTAMENTE AO CULTIVO); PRODUÇÃO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "SORGO; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "TRIGO MOURISCO; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "TRIGO PRETO; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "TRIGO SARRACENO; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  },
+  {
+    "id": "0111399",
+    "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+    "classe": {
+      "id": "01113",
+      "descricao": "CULTIVO DE CEREAIS",
+      "grupo": {
+        "id": "011",
+        "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+        "divisao": {
+          "id": "01",
+          "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+          "secao": {
+            "id": "A",
+            "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+          }
+        }
+      },
+      "observacoes": [
+        "Esta classe compreende - o cultivo de alpiste, arroz, aveia, centeio, cevada, milho, milheto, painço, sorgo, trigo, trigo preto, triticale e outros cereais não especificados anteriormente",
+        "Esta classe compreende ainda - o beneficiamento de cereais em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais, quando atividade complementar ao cultivo",
+        "Esta classe NÃO compreende - a produção de sementes certificadas dos cereais desta classe, inclusive modificadas geneticamente (01.41-5)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (01.61-0)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (01.63-6)\r\n- o processamento ou beneficiamento de cereais em estabelecimento não-agrícola (grupo 10.4) e (grupo 10.6)\r\n- a produção de biocombustível (19.32-2)"
+      ]
+    },
+    "atividades": [
+      "TRITICALE; CULTIVO DE"
+    ],
+    "observacoes": [
+      "Esta subclasse compreende - o cultivo de cereais: alpiste, aveia, centeio, cevada, milheto, painço, sorgo, trigo preto, triticale e outros cereais não especificados anteriormente",
+      "Esta subclasse compreende ainda - o beneficiamento de cereais desta subclasse em estabelecimento agrícola, quando atividade complementar ao cultivo\r\n- a produção de sementes de cereais desta subclasse, quando atividade complementar ao cultivo",
+      "Esta subclasse NÃO compreende - o cultivo de arroz (0111-3/01)\r\n- o cultivo de milho (0111-3/02)\r\n- o cultivo de trigo (0111-3/03)\r\n- a produção de sementes certificadas dos cereais desta subclasse, inclusive modificadas geneticamente (0141-5/01)\r\n- os serviços de preparação de terreno, cultivo e colheita realizados sob contrato (0161-0/03)\r\n- o beneficiamento de cereais em estabelecimento agrícola realizado sob contrato (0163-6/00)\r\n- a moagem e a fabricação de produtos derivados dos cereais desta subclasse em estabelecimento não-agrícola (1069-4/00)"
+    ]
+  }
+]

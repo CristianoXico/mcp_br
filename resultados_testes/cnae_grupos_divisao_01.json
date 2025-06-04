@@ -1,0 +1,107 @@
+[
+  {
+    "id": "011",
+    "descricao": "PRODUÇÃO DE LAVOURAS TEMPORÁRIAS",
+    "divisao": {
+      "id": "01",
+      "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+      "secao": {
+        "id": "A",
+        "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+      }
+    },
+    "observacoes": [
+      "Este grupo compreende o cultivo de plantas de ciclo vegetativo de curta duração, até 1 (um) ano, utilizando técnicas de cultivo tradicional, orgânico, ou ainda o cultivo de plantas modificadas geneticamente."
+    ]
+  },
+  {
+    "id": "012",
+    "descricao": "HORTICULTURA E FLORICULTURA",
+    "divisao": {
+      "id": "01",
+      "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+      "secao": {
+        "id": "A",
+        "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+      }
+    },
+    "observacoes": [
+      "Este grupo compreende o cultivo de produtos hortícolas e de plantas da floricultura - flores, folhagens e plantas ornamentais - para corte, vasos, jardino-cultura, ornamentação ou paisagismo. Os produtos hortícolas são plantas de consistência herbácea com ciclo vegetativo de até 6 (seis) meses, normalmente cultivadas de forma intensiva. As plantas da floricultura têm ciclos vegetativos de curta, média ou de longa duração.\r\n\r\nAs plantas deste grupo são cultivadas em ambiente natural ou protegido (estufas, casas de vegetação, hidroponia, plasticultura), utilizando técnicas de cultivo tradicional, orgânico, ou ainda o cultivo de plantas modificadas geneticamente."
+    ]
+  },
+  {
+    "id": "013",
+    "descricao": "PRODUÇÃO DE LAVOURAS PERMANENTES",
+    "divisao": {
+      "id": "01",
+      "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+      "secao": {
+        "id": "A",
+        "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+      }
+    },
+    "observacoes": [
+      "Este grupo compreende o cultivo de plantas perenes, isto é, de ciclo vegetativo de longa duração. Essas plantas produzem por vários anos sucessivos sem a necessidade de novos plantios após colheita, sendo utilizadas técnicas de cultivo tradicional, orgânico, assim como o cultivo de plantas modificadas geneticamente."
+    ]
+  },
+  {
+    "id": "014",
+    "descricao": "PRODUÇÃO DE SEMENTES E MUDAS CERTIFICADAS",
+    "divisao": {
+      "id": "01",
+      "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+      "secao": {
+        "id": "A",
+        "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+      }
+    },
+    "observacoes": [
+      "Este grupo compreende a produção de sementes e mudas certificadas.\r\n\r\nA produção de sementes e mudas certificadas é realizada por produtores agrícolas especializados a partir de sementes básicas que resultam da multiplicação de sementes genéticas, desenvolvidas em laboratório. A permanência das características obtidas com o melhoramento genético é garantida pela entidade certificadora da semente genética, através de testes em laboratórios de análise de sementes e de plantio em campo.\r\n\r\nO melhoramento genético pode ser obtido de forma tradicional, a partir de cruzamento de plantas, ou com o uso de engenharia genética, envolvendo interferência direta no DNA da planta."
+    ]
+  },
+  {
+    "id": "015",
+    "descricao": "PECUÁRIA",
+    "divisao": {
+      "id": "01",
+      "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+      "secao": {
+        "id": "A",
+        "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+      }
+    },
+    "observacoes": [
+      "Este grupo compreende a criação e a produção animal, exceto animais aquáticos.\r\n\r\nNeste grupo as classes de atividades são organizadas segundo a espécie animal.\r\n\r\nEste grupo compreende também a criação de animais modificados geneticamente.\r\n\r\nEste grupo não compreende o alojamento do gado por curta duração (grupo 01.6)."
+    ]
+  },
+  {
+    "id": "016",
+    "descricao": "ATIVIDADES DE APOIO À AGRICULTURA E À PECUÁRIA; ATIVIDADES DE PÓS-COLHEITA",
+    "divisao": {
+      "id": "01",
+      "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+      "secao": {
+        "id": "A",
+        "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+      }
+    },
+    "observacoes": [
+      ""
+    ]
+  },
+  {
+    "id": "017",
+    "descricao": "CAÇA E SERVIÇOS RELACIONADOS",
+    "divisao": {
+      "id": "01",
+      "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+      "secao": {
+        "id": "A",
+        "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+      }
+    },
+    "observacoes": [
+      ""
+    ]
+  }
+]

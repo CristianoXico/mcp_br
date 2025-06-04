@@ -1,0 +1,108 @@
+[
+  {
+    "localidade": "BR",
+    "sexo": "M",
+    "res": [
+      {
+        "nome": "JOSE",
+        "frequencia": 5732508,
+        "ranking": 1
+      },
+      {
+        "nome": "JOAO",
+        "frequencia": 2971935,
+        "ranking": 2
+      },
+      {
+        "nome": "ANTONIO",
+        "frequencia": 2567494,
+        "ranking": 3
+      },
+      {
+        "nome": "FRANCISCO",
+        "frequencia": 1765197,
+        "ranking": 4
+      },
+      {
+        "nome": "CARLOS",
+        "frequencia": 1483121,
+        "ranking": 5
+      },
+      {
+        "nome": "PAULO",
+        "frequencia": 1417907,
+        "ranking": 6
+      },
+      {
+        "nome": "PEDRO",
+        "frequencia": 1213557,
+        "ranking": 7
+      },
+      {
+        "nome": "LUCAS",
+        "frequencia": 1116818,
+        "ranking": 8
+      },
+      {
+        "nome": "LUIZ",
+        "frequencia": 1102927,
+        "ranking": 9
+      },
+      {
+        "nome": "MARCOS",
+        "frequencia": 1101126,
+        "ranking": 10
+      },
+      {
+        "nome": "LUIS",
+        "frequencia": 931530,
+        "ranking": 11
+      },
+      {
+        "nome": "GABRIEL",
+        "frequencia": 922744,
+        "ranking": 12
+      },
+      {
+        "nome": "RAFAEL",
+        "frequencia": 814709,
+        "ranking": 13
+      },
+      {
+        "nome": "DANIEL",
+        "frequencia": 706527,
+        "ranking": 14
+      },
+      {
+        "nome": "MARCELO",
+        "frequencia": 690098,
+        "ranking": 15
+      },
+      {
+        "nome": "BRUNO",
+        "frequencia": 663271,
+        "ranking": 16
+      },
+      {
+        "nome": "EDUARDO",
+        "frequencia": 628539,
+        "ranking": 17
+      },
+      {
+        "nome": "FELIPE",
+        "frequencia": 615924,
+        "ranking": 18
+      },
+      {
+        "nome": "RAIMUNDO",
+        "frequencia": 611174,
+        "ranking": 19
+      },
+      {
+        "nome": "RODRIGO",
+        "frequencia": 598825,
+        "ranking": 20
+      }
+    ]
+  }
+]

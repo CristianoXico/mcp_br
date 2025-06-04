@@ -1,0 +1,27 @@
+{
+  "indicadores_3550308": {
+    "infraestrutura": {
+      "domicilios_com_agua_encanada": 98.5,
+      "domicilios_com_esgoto": 92.3,
+      "domicilios_com_coleta_lixo": 99.8,
+      "domicilios_com_energia_eletrica": 99.9
+    },
+    "economia": {
+      "empresas_atuantes": 654810,
+      "pessoal_ocupado": 6267588,
+      "salario_medio_mensal": 4.3,
+      "pib_por_setor": {
+        "agropecuaria": 0.1,
+        "industria": 15.8,
+        "servicos": 70.5,
+        "administracao_publica": 13.6
+      }
+    },
+    "desenvolvimento": {
+      "indice_desenvolvimento_educacao_basica": 6.5,
+      "taxa_mortalidade_infantil": 10.5,
+      "expectativa_vida": 78.5
+    },
+    "ano_referencia": 2021
+  }
+}

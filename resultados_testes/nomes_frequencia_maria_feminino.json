@@ -1,0 +1,5 @@
+[
+  {
+    "erro": "Client error '404 Not Found' for url 'https://servicodados.ibge.gov.br/api/v2/censos/nomes/MARIA/frequencia?sexo=F'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  }
+]

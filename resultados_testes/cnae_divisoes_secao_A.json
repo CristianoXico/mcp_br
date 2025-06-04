@@ -1,0 +1,35 @@
+[
+  {
+    "id": "01",
+    "descricao": "AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS",
+    "secao": {
+      "id": "A",
+      "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+    },
+    "observacoes": [
+      "Esta divisão compreende o cultivo de lavouras e a criação e produção animal.\r\n\r\nNo cultivo de lavouras são identificados quatro segmentos (grupos): produção de lavouras temporárias (grupo 01.1); horticultura e floricultura (grupo 01.2); produção de lavouras permanentes (grupo 01.3); produção de sementes e mudas certificadas (grupo 01.4), onde estão incluídos os processos de cultivo tradicional, orgânico, bem como o cultivo de plantas modificadas geneticamente.\r\n\r\nNa criação e produção animal identifica-se um único grupo: pecuária (grupo 01.5), onde também se inclui a criação de animais modificados geneticamente.\r\n\r\nA produção de sementes e mudas das lavouras, quando associada ao cultivo, classifica-se na mesma classe CNAE do cultivo. As unidades especializadas na produção de sementes e mudas certificadas, inclusive modificadas geneticamente, são classificadas em categoria própria (grupo 01.4).\r\n\r\nO processamento, na unidade de produção agrícola, de produtos agrícolas ou pecuários provenientes de produção própria classifica-se no mesmo código da atividade da produção. Quando o processamento é desempenhado por terceiros, classifica-se na seção C - indústrias de transformação.\r\n\r\nEsta divisão compreende também a caça tradicional e com armadilha, as atividades de apoio à agricultura e à pecuária e às atividades de pós-colheita.\r\n\r\nAs atividades de apoio à agricultura - preparo do solo, plantio, colheita, etc. - e de apoio à pecuária - manejo dos animais, inseminação artificial, etc. - executadas sob contrato estão incluídas nesta divisão em categorias específicas de serviços de apoio à agricultura (01.61-0) e à pecuária (01.62-8). Estes serviços, quando executados em unidades de produção agrícola ou de pecuária com recursos próprios, ficam incluídos na mesma classe onde se classifica a unidade de produção.\r\n\r\nPor atividades pós-colheita (01.63-6) entende-se a preparação primária de produtos agrícolas para o mercado (limpeza, ornamentação, classificação, desinfecção)."
+    ]
+  },
+  {
+    "id": "02",
+    "descricao": "PRODUÇÃO FLORESTAL",
+    "secao": {
+      "id": "A",
+      "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+    },
+    "observacoes": [
+      "Esta divisão compreende o cultivo de espécies florestais, a produção de madeira em toras e a exploração de produtos florestais não-madeireiros.\r\n\r\nCompreende também a produção de mudas florestais, os produtos da madeira resultantes de pequeno processamento - lenha, carvão vegetal, lascas de madeira - assim como a madeira utilizada sem processamento - moirões, estacas e postes. \r\n\r\nEstas atividades podem ocorrer em florestas plantadas ou nativas."
+    ]
+  },
+  {
+    "id": "03",
+    "descricao": "PESCA E AQÜICULTURA",
+    "secao": {
+      "id": "A",
+      "descricao": "AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E AQÜICULTURA"
+    },
+    "observacoes": [
+      "Esta divisão compreende a pesca e a criação de animais aquáticos, abrangendo o uso dos recursos pesqueiros em águas marinhas, salobras e em água doce, objetivando a captura de peixes, crustáceos, moluscos e de outros organismos ou produtos aquáticos (plantas aquáticas, pérolas, esponjas, outros).\r\n\r\nTambém compreende as atividades normalmente integradas ao processo de produção na aqüicultura (produção de sementes de ostras para produção de pérolas).\r\n\r\nEsta divisão não compreende a construção e reparação de navios e barcos (divisão 30), a atividade de pesca esportiva ou recreativa (divisão 85) e o processamento de peixes, crustáceos e moluscos realizado em estabelecimento industrial ou em barco-fábrica (divisão 10)."
+    ]
+  }
+]

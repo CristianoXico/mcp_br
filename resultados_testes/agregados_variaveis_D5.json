@@ -1,0 +1,5 @@
+[
+  {
+    "erro": "Server error '500 Internal Server Error' for url 'https://servicodados.ibge.gov.br/api/v3/agregados/D5/variaveis'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+  }
+]

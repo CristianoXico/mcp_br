@@ -1,0 +1,4 @@
+{
+  "items": [],
+  "erro": "Server error '503 Service Unavailable' for url 'https://servicodados.ibge.gov.br/api/v1/noticias/noticias/produtos/IPCA?qtd=10&page=1'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+}
