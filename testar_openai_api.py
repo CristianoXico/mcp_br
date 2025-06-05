@@ -46,21 +46,21 @@ def main():
         print("Erro: forneça a chave da API OpenAI via --api-key ou variável OPENAI_API_KEY.")
         sys.exit(1)
 
-    openai.api_key = args.api_key
+    client = openai.OpenAI(api_key=args.api_key)
     proc = start_mcp_server()
     print("Servidor MCP-BR iniciado para testes com OpenAI.")
 
     try:
         prompt = args.prompt if args.prompt else PROMPT_MCP + "\nGere um relatório de vulnerabilidade social para o município de Fortaleza no formato texto."
         print("Prompt enviado ao modelo:\n", prompt)
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model=args.model,
             messages=[{"role": "system", "content": "Você é um assistente MCP-BR."},
                       {"role": "user", "content": prompt}],
             temperature=0.2,
             max_tokens=800
         )
-        print("\nResposta do modelo:\n", response["choices"][0]["message"]["content"])
+        print("\nResposta do modelo:\n", response.choices[0].message.content)
     finally:
         stop_mcp_server(proc)
         print("Servidor MCP-BR encerrado.")
